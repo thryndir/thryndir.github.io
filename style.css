@@ -139,7 +139,7 @@ section
     background-color: hsl(158, 49%, 18%);
 }
 
-@media all and (max-width: 670px)
+@media all and (max-device-width: 670px)
 {
     #desktop
     {
@@ -200,7 +200,7 @@ section
 
 }
 
-@media all and (min-width: 670px)
+@media all and (min-device-width: 670px)
 {
     #phone
     {
