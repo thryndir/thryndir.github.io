@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-[[image/capture.png]]
+![image du site](image/capture.png)
 
 ### Links
 
