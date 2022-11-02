@@ -19,11 +19,12 @@ Users should be able to:
 
 ### Screenshot
 
-(image/capture.png)
+[[image/capture.png]]
 
 ### Links
 
-https://github.com/thryndir/frontend-mentor-n-1.git
+- https://github.com/thryndir/frontend-mentor-n-1.git
+- https://thryndir.github.io/
 
 ### Built with
 
