@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](../Mes%20fichiers/image/Capture.PNG)
+(image/capture.png)
 
 ### Links
 
