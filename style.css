@@ -139,9 +139,9 @@ button:hover
     background-color: hsl(158, 49%, 18%);
 }
 
-@media all and (max-device-width: 670px)
+@media all and (max-width: 670px)
 {
-    section
+    main
     {
         display: flex;
         flex-direction: column;
