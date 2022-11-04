@@ -1,0 +1,210 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.desktop
+{
+    height: 480px;
+    width: 350px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    width: 650px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.prix
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+button
+{
+    display: flex;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 8px;
+    margin-left: -120px;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 140px;
+}
+
+button img
+{
+    height: 13px;
+    padding-right: 10px;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(police/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(police/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+.information > h2
+{
+    font-family: 'Montserrat', Arial, Serif;
+    font-weight: 700;
+    font-size: small;
+    text-align: start;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+    margin-left: -250px;
+    margin-bottom: -30px;
+}
+
+.information > h1
+{
+    font-family: 'Fraunces', Arial, Serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: start;
+    color: hsl(212, 21%, 14%);
+    width: 230px;
+    line-height: 90%;
+    margin-left: -110px;
+    margin-bottom: -15px;
+}
+
+.information p
+{
+    font-family: 'Montserrat', Arial, Serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+    color: hsl(228, 12%, 48%);
+    width: 230px;
+    line-height: 150%;
+    margin-left: -110px;
+    margin-bottom: -20px;
+}
+
+.prix h2
+{
+    font-family: 'Fraunces', Arial, Serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    padding-right: 15px;
+    margin-left: -150px;
+}
+
+.prix strong
+{
+    font-family: 'Montserrat', Arial, serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+button h2
+{
+    font-family: 'Montserrat', Arial, Serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(30, 38%, 92%);
+}
+
+button:hover
+{
+    background-color: hsl(158, 49%, 18%);
+}
+
+@media all and (max-device-width: 670px)
+{
+    .desktop
+    {
+        display: none;
+    }
+
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 620px;
+    }
+
+    .information > h1
+    {
+        width: 300px;
+        margin-left: -10px;
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .mobile
+    {
+        width: 375px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .information p
+    {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .information > h2
+    {
+        margin-left: -220px;
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+
+    button
+    {
+        margin: auto;
+        padding-right: 100px;
+        padding-left: 100px;
+        border: 0px;
+    }
+
+    .prix
+    {
+        margin-left: 40px;
+    }
+
+    .information
+    {
+        margin-left: 0px;
+    }
+
+}
+
+@media all and (min-device-width: 670px)
+{
+    .mobile
+    {
+        display: none;
+    }
+}
